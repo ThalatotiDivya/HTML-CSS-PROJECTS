@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>15f</title>
+    </head>
+    <style>
+        .shirt{
+            position:relative;
+            display:inline-block;
+            
+        }
+        img{
+            width:300px;
+            height:300px;
+            object-fit: cover;
+        }
+        .promotion{
+            background-color: black;
+            color:white;
+            position:absolute;
+            font-family: Arial;
+            top:10px;
+            right:0;
+            padding:6px 10px 6px 10px;
+        }
+        .overlay{
+            background-color: rgba(255, 255, 255, 0.8);
+            left:0;
+            right:0;
+            bottom:0;
+            height:80px;
+            position:absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button{
+            background-color:white;
+            color:black;
+            border-width:1px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+    </style>
+    <body style="height:3000px">
+        <div class="shirt">
+            <img src="/Images-textboxes/image/shirt.jpg">
+            <div class="promotion">20% OFF</div>
+            <div class="overlay">
+                    <button class="button">Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>
